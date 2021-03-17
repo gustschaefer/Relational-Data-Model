@@ -52,16 +52,23 @@ Entretando, podemos complementar a Query de diversas maneiras, para obter uma li
 
 Dentre as principais **vantagens** do modelo relacional, podemos destacar:
 
-* Suporte a controle de transações como: *incluir*, *excluir*, *alterar* e *consultar*
-* Manter integridade
-* Reduzir redundância
-* Acesso concorrente
+* Suporte de negócios: manter o funcionamente de uma empresa *(e.g.: tabela de folha de pagamento)*
+* Controle de transações: *incluir*, *excluir*, *alterar* e *consultar*
+* Manter integridade: manter dados atuais *(e.g.: cliente que pagou é excluido da lista de devedores)*
+* Reduzir redundância: atributos bem definidos para evitar repetição *(e.g: cliente com endereços diferentes)*
+* Acesso concorrente: acesso de multiplos usuários sem haver perda de restrições e/ou performance
 
 Entretando, o modelo relacional não é indicado para aplicações:
 
 * Analíticas
 * Que exigam alta escalabilidade
-* Necessitem redundância de dados
+* Que Necessitem redundância de dados
 
-## Sistemas de Operação
+## ACID
+
+ACID é uma conceito geral sobre quatro propriedades de transação de um sistema de banco de dados: Atomicidade, Consistência, Isolamento e Durabilidade.
+
+
+
+
 
