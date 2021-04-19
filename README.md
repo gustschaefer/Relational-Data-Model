@@ -68,6 +68,9 @@ Entretando, o modelo relacional não é indicado para aplicações:
 
 ACID é uma conceito geral sobre quatro propriedades de transação de um sistema de banco de dados: Atomicidade, Consistência, Isolamento e Durabilidade.
 
+EM BREVE / COMING SOON...
+
+
 
 
 
